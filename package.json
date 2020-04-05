@@ -1,0 +1,13 @@
+{
+  "name": "DeliveryMuch",
+  "version": "1.0.0",
+  "description": "API para prova de desenvolvedor Backend na DeliveryMuch",
+  "main": "index.js",
+  "author": "Victor Biasibetti",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
