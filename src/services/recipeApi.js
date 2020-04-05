@@ -1,7 +1,8 @@
-const axios = require('axios')
+require('dotenv/config')
+const axios = require('axios').default
 
 const api = axios.create({
-  base_url: process.env.API_RECIPE != null ? process.env.API_RECIPE : ''
+  baseURL: process.env.API_RECIPE 
 })
 
 module.exports = api;
