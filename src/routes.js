@@ -1,10 +1,8 @@
 const Router = require('express/lib/router')
-
+const RecipesController = require('./controllers/RecipesController')
 const routes = new Router()
 
 
-routes.get('/', (req,res) => {
-  return res.status(200).send({msg: 'hello world'})
-})
+routes.get('/recipes', RecipesController.index)
 
 module.exports = routes;
