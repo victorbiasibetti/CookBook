@@ -11,6 +11,15 @@ Para executar o projeto basta fazer checkout do repositório e rodar o comando `
 
 `yarn start` - executa o projeto que utilizará por padrão a porta 3333.
 
+O projeto também conta com um arquivo Docker para que seja montado o container da aplicação.
+Para criar este container:
+`docker build -t {seunome}/cookbook .`
+
+Para rodar o container:
+`docker run -p 3333:3333 -d {seunome}/cookbook`
+
+Obs: o parâmetro -p é para fazer o redirecionamento de porta da máquina host para o container.
+
 ## Exemplos
 Abaixo um exemplo de chamada a API com o retorno esperado:
 
