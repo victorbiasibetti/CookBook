@@ -8,6 +8,4 @@ const app = express();
 app.use(cors())
 app.use(routes)
 
-
-app.listen(process.env.PORT || 3333, () => console.log('server on'))
-
+module.exports = app;
