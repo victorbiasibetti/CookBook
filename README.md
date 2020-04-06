@@ -4,6 +4,7 @@ Este repositório é uma API para prova de desenvolvedor backend na DeliveryMuch
 
 ## Implementação
 Esta API foi desenvolvida toda em NodeJS utilizando o Insomnia para testes em ambiente de desenvolvimento.
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=CookBook&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvictorbiasibetti%2FCookBook%2Fmaster%2FInsomnia.json)
 
 ## Rodar o projeto
 Para executar o projeto basta fazer checkout do repositório e rodar o comando `yarn` na pasta raiz do projeto, assim todas as dependências serão instaladas.
